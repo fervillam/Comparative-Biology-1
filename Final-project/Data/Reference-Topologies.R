@@ -1,4 +1,4 @@
-## Constructing "phylo" class objects prior to sensibility analysis ##
+## Constructing reference topologies ##
 
 # Installing necessary packages
 
