@@ -1,2 +1,2 @@
-# Comparative_Biology_1
+# Comparative-Biology-1
 A basic course of comparative biology.
