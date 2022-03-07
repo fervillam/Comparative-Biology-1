@@ -12,7 +12,7 @@
 # There are 2 possible topologies for a four branched tree: 2x2 and 3x1
   # eq2x2 and eq3x1 resemble equal length branches
   
-    # Creating "phylo" class object for eq2x2 (equal paired branches: 2x2)
+    # Creating "phylo" class object for eq2x2 (equal BL and paired branches: 2x2)
     
       eq2x2_edge <- matrix(data  =c(5,6,6,1,6,2,5,7,7,3,7,4),
                          nrow = 6,
@@ -32,7 +32,7 @@
       
       class(eq2x2) <- "phylo"
     
-    # Creating "phylo" class object for eq3x1 (equal not paired branches: 3x1)
+    # Creating "phylo" class object for eq3x1 (equal BL but not paired branches: 3x1)
     
       eq3x1_edge <- matrix(data = c(5,6,6,7,7,1,7,2,6,3,5,4),
                          nrow = 6,
