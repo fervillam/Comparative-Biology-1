@@ -31,6 +31,12 @@
                   edge.length = eq2x2_edgl)
       
       class(eq2x2) <- "phylo"
+
+      eq2x2      
+        #Phylogenetic tree with 4 tips and 3 internal nodes.
+        #Tip labels:
+          #t1, t2, t3, t4
+
     
     # Creating "phylo" class object for eq3x1 (equal BL but not paired branches: 3x1)
     
@@ -52,3 +58,7 @@
       
       class(eq3x1) <- "phylo"
     
+      eq3x1      
+        #Phylogenetic tree with 4 tips and 3 internal nodes.
+        #Tip labels:
+          #t1, t2, t3, t4
